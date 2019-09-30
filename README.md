@@ -6,11 +6,11 @@ to your tastes. Just change the control register bit loading. It's also fixed to
 1 second of data and compute the mean, then collect 10 seconds data with mean removed. 
 
 The FFT, actually DFT, is flexable, fast and accurate. It does require the C99 compiler on
-the Raspberry. just compile with 
+the Raspberry. Just compile with 
 
 sudo gcc fftNau.c -o fftNau -lwiringPi -lm -std=c99
 
-then execute sudo ./fftNau
+then execute with sudo ./fftNau
 
 and off you go. Here it's set for 4096 to cover the 3200
 sample buffer. I output the larger amplitudes to identify harmonics.  The device is unshielded so lots of erroneous
