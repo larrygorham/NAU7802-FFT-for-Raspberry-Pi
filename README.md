@@ -16,6 +16,6 @@ and off you go. Here it's set for 4096 to cover the 3200
 sample buffer. I output the larger amplitudes to identify harmonics.  The device is unshielded so lots of erroneous
 60 Hz shows up. 
 
-I wanted stand alone C Code for portability and analysis purposes. Please excuse my very rough coding. 
-It does accomplish the job very well.
+I wanted stand alone C Code for portability and analysis purposes. Please excuse my very rough coding; however,
+it does accomplish the job very well.
 
