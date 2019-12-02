@@ -19,3 +19,5 @@ sample buffer. I output the larger amplitudes to identify harmonics.  The device
 I wanted stand alone C Code for portability and analysis purposes. Please excuse my very rough coding; however,
 it does accomplish the job very well.
 
+I used a lot of code from SparkFun_Qwiic_Scale_NAU7802_Arduino_Library to sample the NAU7802.
+
